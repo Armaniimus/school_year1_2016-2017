@@ -1,0 +1,4 @@
+De sql opdrachten staan onderaan in de sql
+Je kan ze apart uitvoeren of gelijk met de sql zelf.
+
+Ze staan ook hier mocht je dat makkelijker vinden

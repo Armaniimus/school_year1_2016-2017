@@ -1,0 +1,19 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+.result {
+    padding: 1em;
+    background-color: #333;
+    color: #ccc;
+}
+
+#result {
+    font-size: 120%;
+    color: #fff;
+}

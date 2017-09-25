@@ -1,0 +1,13 @@
+body {
+    font-family: "Arial";
+}
+div {
+    padding: 5px;
+}
+label{
+    display: inline-block;
+    width:8em;
+}
+#result-fullname {
+    font-weight: bold;
+}

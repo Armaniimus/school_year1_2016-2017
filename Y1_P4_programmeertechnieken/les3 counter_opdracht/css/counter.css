@@ -1,0 +1,51 @@
+.roundcount {
+    position: absolute;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s linear; /* Safari */
+    transition: all 0.5s linear;
+}
+
+.textcount {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25px
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.countnoanima {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.counthalfanima {
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25%;
+    background-color: orange;
+    border-radius: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+.countfullanima {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-color: red;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
