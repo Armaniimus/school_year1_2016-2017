@@ -1,0 +1,64 @@
+<!--Auteur Armand van Alphen-->
+<!DOCTYPE html>
+<html lang=nl>
+	<head>
+		<style>
+			.commandosheet{
+				width: 300px;
+				height: 300px;
+				border: solid black 1px;
+				padding: 15px;
+				background-color: bisque;
+			}
+			#block{
+				-webkit-transition: width 4s ease-out, height 4s ease-out background-color 4s ease-out ;
+				transition: width 4s ease-out, height 4s ease-out, background-color 4s ease-out ;
+				width: 150px;
+				height: 150px;
+				background-color: green;
+			}
+			
+		</style>
+		<meta charset="utf-8">
+		<title>resize block</title>
+		<link rel=stylesheet href="recolour_resize_block.css">
+	</head>
+	<body>
+		<div class="commandosheet">
+			Breedte in pixels <input required type="number" id="width" value="200"/><br>
+			Hoogte in pixels <input required type="number" id="height" value="200"/><br>
+			<select required naam="concerten" id="color">
+				<option value="green">groen</option>
+				<option value="orange">oranje</option>
+				<option value="purple">paars</option>
+				<option value="yellow">geel</option>
+				<option value="blue">blauw</option>
+				<option value="red">rood</option>
+				<option value="black">zwart</option>
+				<option value="grey">grijs</option>
+				<option value="white">wit</option>
+			</select>
+			<br><br>
+			<button onclick="resize()">resize block</button>
+			
+			
+			
+			<div id=block></div>
+			
+		</div>	
+		<script>	
+			
+			function resize() {
+				var mywidthis = document.getElementById("width").value;
+				var myheightis = document.getElementById("height").value;
+				var mycolor = document.getElementById("color").value;
+				
+				block.style.width = mywidthis+"px";
+				block.style.height = myheightis+"px";
+				block.style.backgroundColor = mycolor
+			}
+		
+			//document.write("<br /> ");
+		</script>
+	</body>
+</html>

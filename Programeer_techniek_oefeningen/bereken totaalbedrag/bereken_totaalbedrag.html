@@ -1,0 +1,36 @@
+<!--Auteur Armand van Alphen-->
+<!DOCTYPE html>
+<html lang=nl>
+	<head>
+		<link rel=stylesheet href="bereken_totaalbedrag_style.css">
+		<meta charset="utf-8">
+		<title>bereken totaal bedrag</title>
+		
+	</head>
+	<body>
+		<div class=mathsheet>
+		Bedrag per stuk:<input required type="number" id="bedragper" value="12.95"/><br>
+		
+		Aantal: <input required type="number" id="aantal" value="0"/><br>
+		<button onclick="bereken()">bereken</button><br>
+		
+		Het totaal bedrag is: <span id=showmath> </span>
+		
+		
+		</div>
+		<script>
+			
+			var bedrag = ""
+			var aantall = ""
+			var uitkomst = ""
+			
+			function bereken() {
+				aantall = document.getElementById("aantal").value
+				bedrag = document.getElementById("bedragper").value
+				uitkomst = bedrag*aantall
+				document.getElementById("showmath").innerHTML = uitkomst	
+			}
+			//document.write("<br /> ");
+		</script>
+	</body>
+</html>
