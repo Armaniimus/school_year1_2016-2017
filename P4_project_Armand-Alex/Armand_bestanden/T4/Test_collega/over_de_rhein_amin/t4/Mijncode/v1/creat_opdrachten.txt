@@ -1,0 +1,25 @@
+DROP table if EXISTS Bedrijven ;
+Create Table Bedrijven 
+(
+
+	Bedrijfsid int UNIQUE NOT NULL AUTO_INCREMENT,
+	Bedrijf VARCHAR(100) NOT NULL,
+	Functionaris varchar(100) NOT NULL
+
+
+);
+DROP TABLE IF EXISTS Eigenaar_8;
+CREATE TABLE Eigenaar_8
+(
+    Eigenaar_id INT UNIQUE NOT NULL AUTO_INCREMENT,
+    Eigenaar_naam VARCHAR(100) NOT NULL,
+    Adres VARCHAR(100) NOT NULL,
+    Huisnummer VARCHAR(7) NOT NULL,
+    Postcode CHAR(6) NOT NULL,
+    Woonplaats VARCHAR(37) NOT NULL,
+    Telefoonnummer VARCHAR(10)
+);
+
+
+ 
+

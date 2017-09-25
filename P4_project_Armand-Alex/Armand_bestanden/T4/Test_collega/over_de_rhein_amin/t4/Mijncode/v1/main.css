@@ -1,0 +1,82 @@
+.groenTemplate header {
+  background: #f15025;
+  padding: 1em 0em; }
+  .groenTemplate header h1 {
+    display: inline-block;
+    margin: 0em 1em; }
+  .groenTemplate header h1.pageTitle {
+    position: absolute;
+    right: 0; }
+  .groenTemplate header nav {
+    margin: 0em 1em;
+    z-index: 100; }
+    .groenTemplate header nav ul {
+      background: #f15025;
+      padding: 0;
+      list-style-type: none;
+      margin: 0; }
+      .groenTemplate header nav ul li {
+        background: #e1f2fe;
+        text-align: center;
+        display: inline-block;
+        min-width: 12.5em; }
+        .groenTemplate header nav ul li:hover ul {
+          display: block; }
+        .groenTemplate header nav ul li a {
+          border: 0.1em solid black;
+          padding: 0.5em 1em;
+          display: block; }
+          .groenTemplate header nav ul li a:hover {
+            text-decoration: underline; }
+        .groenTemplate header nav ul li ul {
+          position: absolute;
+          display: none; }
+          .groenTemplate header nav ul li ul li {
+            width: 100%; }
+            .groenTemplate header nav ul li ul li a {
+              border-top: none; }
+
+.groenTemplate main {
+  border: 0.1em solid black;
+  min-height: 75vh;
+  max-width: 80%;
+  margin: 1em auto;
+  overflow: auto;
+  background: rgba(193, 193, 193, 0.1);
+  padding: 1em; }
+  .groenTemplate main table {
+    margin: 1em 0em; }
+
+.groenTemplate footer button.exitButton {
+  position: absolute;
+  right: 10%;
+  border: 0.1em solid black;
+  font-size: 1.3rem;
+  font-weight: 900;
+  cursor: pointer; }
+
+.index nav {
+  width: 100vw;
+  height: 100vh;
+  text-align: center; }
+  .index nav ul {
+    padding: 0;
+    list-style-type: none;
+    font-size: 3rem; }
+    .index nav ul li:hover ul {
+      max-height: 3em; }
+    .index nav ul li a:hover {
+      text-decoration: underline; }
+    .index nav ul li ul {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 300ms; }
+
+body {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+* {
+  color: #2c4251; }
