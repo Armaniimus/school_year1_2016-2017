@@ -1,0 +1,5 @@
+var DJS = ["naam","Prijs","Genre","Foto"]
+var DJS[0] = []
+var DJS[1] = []
+var DJS[2] = []
+var DJS[3] = []

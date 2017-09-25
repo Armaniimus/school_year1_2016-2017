@@ -1,0 +1,26 @@
+[
+	{
+		"naam": "Tiesto",
+		"Genre": ["Dance", "House", "Trance"],
+		"prijsuur": "350k",
+		"foto": "https://static.djguide.nl/image/djfotos/tiesto.jpg"
+	},
+	{
+		"naam": "David Guetta",
+		"Genre": ["House", "Dance-pop"],
+		"prijsuur": "350k",
+		"foto": "https://static.djguide.nl/image/djupl/2985.jpg?v=3"
+	},
+	{
+		"naam": "Hardwell",
+		"Genre": ["House", "Progressive-house", "Electro", "Techhouse"],
+		"prijsuur": "100k+",
+		"foto": "https://static.djguide.nl/image/djupl/4321.jpg?v=2"
+	},
+	{
+		"naam": "Armin van Buuren",
+		"Genre": "Trance",
+		"prijsuur": "50k-100k",
+		"foto": "https://static.djguide.nl/image/djupl/20.jpg?v=2"
+	}
+]
