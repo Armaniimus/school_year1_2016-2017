@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <title>crud</title>
+
+</html>
+
+<form action='php_functies/fileController.php' method="post">
+    <table border="1">
+        <tr><td>    Url:</td><td>
+            <select id="url" name="url" >
+                <option value="new.txt">new.txt</option>
+                <option value="bestand.txt">bestand.txt</option>
+                <option value="hoi.txt">hoi.txt</option>
+                <option value="wat.txt">wat.txt</option>
+            </select>
+        </td><tr>
+
+        <tr><td>    Content:</td><td>   <textarea id="content" name='content' rows='8' cols='40'></textarea>   </td></tr>
+        <tr><td>    Create:</td><td>    <button id="btnCreate" type='submit' name="selFunc" value="create">Create</button>       </td></tr>
+        <tr><td>    Read:</td><td>      <button id="btnRead" type='submit' name='selFunc' value="read">Read</button>           </td></tr>
+        <tr><td>    Update:</td><td>    <button id="btnUpdate" type='submit' name='selFunc' value="update">Update</button>       </td></tr>
+        <tr><td>    Delete:</td><td>    <button id="btnDelete" type='submit' name='selFunc' value="delete">Delete</button>       </td></tr>
+    </table>
+</form>
+
+<script src="javascript/js.js">
+</script>
