@@ -1,0 +1,61 @@
+.buttrow{
+	position: relative;
+}
+
+
+#block{
+	-webkit-transition: width 2s, height 2s;
+    transition: width 2s, height 2s;
+	
+	display: block;
+	height: 100px;
+	width: 100px;
+	background-color: darkgreen;
+	position: absolute;
+	top:40px;
+	left:40px;
+
+	animation-name: omhoog;
+	animation-iteration-count: 1;
+	animation-duration: 3s;
+	animation-timing-function: ease-out;
+	
+	-webkit-animation-name: omhoog;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-out;
+}
+
+@keyframes omhoog{
+	from{transform: translatey:140px}
+	to{transform: translatey:40px}
+}
+@-webkit-keyframes omhoog{
+	from{transform: translatey:140px}
+	to{transform: translatey:40px}
+}
+@keyframes omlaag{
+	from{transform: translatey:40px}
+	to{transform: translatey:140px}
+}
+@-webkit-keyframes omlaag{
+	from{transform: translatey:40px}
+	to{transform: translatey:140px}
+}
+
+@keyframes links{
+	from{transform: translatey:140px}
+	to{transform: translatey:40px}
+}
+@-webkit-keyframes links{
+	from{transform: translatey:140px}
+	to{transform: translatey:40px}
+}
+@keyframes rechts{
+	from{transform: translatey:40px}
+	to{transform: translatey:140px}
+}
+@-webkit-keyframes rechts{
+	from{transform: translatey:40px}
+	to{transform: translatey:140px}
+}
