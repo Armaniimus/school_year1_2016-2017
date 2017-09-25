@@ -1,0 +1,4 @@
+Het sql bestand moet je in 2 x runnen 
+
+	1.eerst van boven tot en met het blok met de CREATE TABLE gebruikers.
+	2.dan van INSERT INTO gebruikers tot het einde.

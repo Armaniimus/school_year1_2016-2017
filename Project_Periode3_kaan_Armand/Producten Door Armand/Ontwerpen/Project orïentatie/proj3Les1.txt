@@ -1,0 +1,9 @@
+1. Naam bedrijf --> twente mmo ?
+2. Wat doet het bedrijf --> helpdesk waterinstalatie
+3. Aantal medewerkers --> 80mensen 40 binnen 40 buiten.
+4. Systemen. --> gebruikers registratie, apparatuur registratie, melding registratie.
+
+5. PVE = --> Plan van eisen
+6. TO = --> Technische ontwerp
+7. CMDB = --> Content management database
+
