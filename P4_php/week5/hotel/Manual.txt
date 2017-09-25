@@ -1,0 +1,5 @@
+De sQL staat in het rar document onder de map database en heeft de naam create_hotels.sql
+
+Databasenaam in mysql is Hotel
+
+De homepage is hotel_dbf_1_backup.php

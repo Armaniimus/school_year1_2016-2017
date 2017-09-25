@@ -1,0 +1,50 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #999;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+.login {
+    color: #eeeeee;
+    background-color: #151515;
+    border: solid 2px #996015;
+    width: 400px;
+    padding: 25px;
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+    top: 10%;
+}
+.login input {
+    border: solid 1px #996015;
+    background-color: inherit;
+    color: inherit;
+    width: 350px;
+    height: 35px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.login button {
+    margin-top: 20px;
+    border: solid 1px #159999;
+    background-color: inherit;
+    color: inherit;
+    width: 350px;
+    height: 35px;
+    box-sizing: border-box;
+}
+.login button:hover {
+    background: linear-gradient(#151515, #303030);
+}
+.login span {
+    color: #995;
+}
+.login span:hover {
+    color: #995;
+    text-decoration: underline;
+    cursor: pointer;
+}

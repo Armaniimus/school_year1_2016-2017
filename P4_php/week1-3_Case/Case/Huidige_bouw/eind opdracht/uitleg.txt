@@ -1,0 +1,5 @@
+1. Bij het draaien van de database maakt hij de database met de naam "p4roetmetingen_doorArmand" aan.
+
+2. Hierdoor hoef je niet apart namen te wisselen.
+
+3. De functies werken ook met deze database.

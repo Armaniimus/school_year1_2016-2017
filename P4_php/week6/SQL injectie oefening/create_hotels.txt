@@ -1,0 +1,35 @@
+DROP DATABASE IF EXISTS hotel;
+CREATE DATABASE hotel;
+
+DROP TABLE IF EXISTS hotels ;
+CREATE TABLE hotels (
+    id INT AUTO_INCREMENT, 
+    code varchar(20) NOT NULL, 	
+    ligging varchar(50),
+    gebouwdin SMALLINT,	
+    aantalsterren SMALLINT,
+    PRIMARY KEY (id)
+);
+
+INSERT INTO `hotels` (`id`, `code`, `ligging`, `gebouwdin`, `aantalsterren`) 
+VALUES
+
+(1, 'Valk_Assen', 'A28', 1998, 3),
+
+(2, 'Valk_Houten', 'A12', 2001, 5),
+
+(3, 'Valk_Vianen', 'A2', 1996, 2),
+
+(4, 'Valk_DenHaag1', 'A16', 1987, 2),
+
+(5, 'Valk_DenHaag2', 'A15', 2010, 3),
+
+(6, 'Valk_Arnhem', 'A12', 2007, 5),
+
+(7, 'Hilton_Amsterdam', 'Centrum', 1958, 5),
+
+(8, 'Valk_Alex', 'A28', 1998, 5),
+
+(20, 'Oldest Hotel of the world', 'Hot springs of Japan', 705, 5),
+
+(21, 'Valk Alleppo', 'Ruins of Alleppo', 2010, 4);

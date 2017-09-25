@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <style>
+         body,html {width:98%;height:97%;}
+
+        * { box-sizing: border-box}
+        .sideblok{
+            width: 30%;
+            Height: 75%;
+            padding: 10px;
+
+            border: solid 1px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+            float: left;
+
+        }
+
+        .contentblok{
+            width: 70%;
+            height: 75%;
+            padding: 15px;
+            border: solid 1px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
+            float: left;
+        }
+          
+        .footerblok {
+            border: solid 1px;
+            background-color: bisque;
+            height: 15%;
+            clear: left;
+        }
+  
+    </style>
+</head>    
+<body>  
+   
+
+    <div class="sideblok">
+     
+            <button onclick="test(4)">wijzig plaatje</button> <br><br>
+    </div>        
+    <div class="contentblok" id="contentblok">
+
+        <div class="blok"> <IMG onclick="plaatje('1')" id="image1" src="images/dj1.jpg" height="100%" width="100%"/> </div> 
+
+    </div>     
+     <div class="footer" id="footer">
+
+      
+    </div>    
+    
+    <script>
+        function test(nr){
+
+            document.getElementById('footer').innerHTML+=" test ";  
+            document.getElementById('image1').src="images/dj"+nr+".jpg";
+        }
+    </script>
+      
+    
+</body>
+</html>

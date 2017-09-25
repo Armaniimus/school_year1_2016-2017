@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+         body,html {width:98%;height:97%;}
+        
+        * { box-sizing: border-box}
+    
+        body {border: solid 1px}
+        
+        .menublok {
+            Height: 5%;
+            width: 100%;
+            min-height: 20px;
+            border: solid 1px;
+            display: inline-block;  /* wijzig dit in flex*/
+        }
+        
+        
+        .blok{ 
+            text-decoration: none; 
+            border: solid 1px; 
+            border-radius: 5%;
+            text-align: center;
+            background-color:bisque ;
+            display: inline-block; /* block*/
+        }
+        
+        .blok:hover{
+             background-color: lightcyan;
+             border: solid 10px;
+        }
+        
+        .gridblok{
+            width: 30%;
+            height: 30%;
+        } 
+        
+
+        .sideblok{
+            width: 30%;
+            Height: 75%;
+            padding: 10px;
+            
+            border: solid 1px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+            float: left;
+           
+        }
+              
+        .contentblok{
+            width: 70%;
+            height: 75%;
+            padding: 15px;
+            border: solid 1px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
+            float: left;
+            
+        }
+            
+        .footerblok {
+            border: solid 1px;
+            background-color:cornsilk;
+            height: 15%;
+            clear: left;
+        }
+
+    </style>
+</head>
+<body>
+
+    <script>
+        var zoekplaatje = 5;
+        var aantalfout = 0;
+        var keergeraden = 0;
+        
+        
+        function toonGeen(){      
+            for (i = 1; i < 10; i++) { 
+               document.getElementById('png'+i).style.display='none';  
+            }
+        }
+        
+        
+        function klik(nr){
+          
+        }
+        
+        function toonZoekPlaatje(){
+           
+        }
+            
+        function toonAlle(){
+            for (i = 1; i < 10; i++) { 
+               document.getElementById('png'+i).style.display='inline-block';  
+            }
+             
+            setTimeout( 
+                function(){
+                    document.getElementById('buttonToonAlle').style.display='none';   
+                    toonGeen();
+                }, 800);
+
+        }
+        
+         function vulPlaatjes(){
+         
+        }
+        
+        
+        function test(){
+                       
+        }
+      
+        
+        setTimeout( 
+            function(){
+                document.getElementById('buttonToonAlle').style.display='none';   
+                toonGeen();
+            }, 1000);
+
+    </script>
+    
+    
+    <div class="menublok">
+ 
+    </div>
+
+    <div class="sideblok">
+        <button id = "buttonToonAlle" onclick="toonAlle()">toon alle</button>
+        <button onclick="toonGeen()">toon geen</button>
+        <button onclick="test()">nieuwe test</button> <br><br>
+          <div class="kiesblok" id="zoekblok" onclick="function1('4')"> <IMG id="pngZoek"  src="images/dj4.jpg" height="100%" width="100%"/> </div> 
+        
+    </div>
+    
+    <div class="contentblok" id="contentblok">   
+        <div class="blok gridblok" onclick="klik('1')"> <IMG id="png1"  src="images/dj1.jpg" height="100%" width="100%"/> </div> 
+    </div>
+    
+    <div id='foot' class="footerblok"> 
+       
+    </div>
+        
+    
+</body>
+</html>
