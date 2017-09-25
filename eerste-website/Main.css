@@ -1,0 +1,99 @@
+main {
+	color:white;
+	height: 85%
+}
+.mainhome{
+	height: 300px;
+	width 50%;
+	display:block;
+	float: left;
+}
+#homeimg{
+	background-image: url(images/Armand.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 40%;
+	margin-left: 8%;
+	margin-right: 2%;
+}
+.persimage{
+	height: 300px;
+	width 50%;
+	display:block;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 40%;
+	margin-left: 8%;
+	margin-right: 2%;
+}
+#persimg1{
+	background-image: url(images/plaat1.png);
+}
+#persimg2{
+	background-image: url(images/plaat2.png);
+}
+#hometext{
+	position: relative;
+	width: 40%;
+	margin-left: 2%;
+}
+#hometext p{
+	width: 100%;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 20%;
+}
+#hometable{
+	margin-left: 15%;
+}
+.center{
+	padding-top: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background:white;
+	color: green;
+}
+#homelay{
+	width: 80%;
+	display:block;
+}
+#homelay table{
+	width: 50%;
+	display:block;
+}
+#homelay tble tr{
+	width: 100%;
+	display: block;
+	float: left;
+}
+#gegevens-tabel{
+	position: relative;
+	top: -100px;
+	padding-top: 140px;
+	padding-bottom: 70px;
+	color:darkgreen;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#gegevens-tabel tr{
+	width: 99%;
+}
+#gegevens-tabel tr td{
+	width: 50%;
+	border-bottom: dotted darkgreen 1px
+}
+.second-row{
+	width: 200px;
+	font-size: 14px;
+	display: block;
+}
+#plan-table tbody tr td{
+	border-bottom: darkgreen dotted 1px;
+	margin-top: 15px;
+	font-size: 12px;
+}
